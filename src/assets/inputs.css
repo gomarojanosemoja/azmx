@@ -1,0 +1,18 @@
+select:focus {
+    border-color: var(--vc-c-yellow) !important;
+    box-shadow: 0 0 0 0.1rem var(--vc-c-yellow) !important;
+    background: #edecf0 !important;
+    border: 1px !important;
+  }
+  input:focus {
+    border-color: var(--vc-c-green) !important;
+    box-shadow: 0 0 0 0.1rem var(--vc-c-green) !important;
+    background: #edecf0 !important;
+    border: 1px !important;
+  }
+  input,
+  select {
+    background: #edecf0 !important;
+    border-color: #edecf0 !important;
+    box-shadow: none !important;
+  }
